@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+.sass-cache/
+bower_components/
+node_modules/
+=======
 
 # Created by https://www.gitignore.io/api/macos,windows,linux,jekyll,visualstudio,visualstudiocode,netbeans,sublimetext,sass,phpstorm,webstorm,python,laravel,symfony,pycharm,composer
 
@@ -700,3 +705,4 @@ paket-files/
 *.xsd.cs
 
 # End of https://www.gitignore.io/api/macos,windows,linux,jekyll,visualstudio,visualstudiocode,netbeans,sublimetext,sass,phpstorm,webstorm,python,laravel,symfony,pycharm,composer
+>>>>>>> 1330b7ee04e715d94ff8bedbcb24111256ca4330
