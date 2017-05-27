@@ -1,0 +1,171 @@
+body{
+	margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Noto+Serif');
+
+h1 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #000000;
+    font-size: 32px;
+}
+
+h2 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #878786;
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Noto Serif', serif;
+  color: #000000;
+  font-size: 14px;
+}
+
+.navigatie{
+	height: 110px;
+	border-bottom: 4px solid #e6c20a;
+	margin-top: 30px;
+	margin-bottom: 46px;
+}
+
+.navlist {
+	float: right;
+}
+
+.navlist ul{
+	list-style: none;
+	margin-top: 40px;
+}
+
+.navlist li{
+	display: inline;
+	font-family: 'Fira Sans Condensed', sans-serif;
+    color: #000000;
+    font-size: 32px;
+	float: left;
+	margin-right: 7rem;
+
+}
+
+li:active{
+	color: #e6c20a
+}
+
+.logo{
+	position: absolute;
+	float: left;
+	width: 30%;
+	margin-left: 5%;
+}
+
+.colors{
+	display: flex;
+	width: 45%;
+	flex-wrap: wrap;
+	margin-left: 5%;
+	float: left;
+	margin-bottom: 5%;
+}
+
+.color{
+	width: 30%;
+	padding-top: 30%;
+	margin: 5% 5% 0 0;
+	}
+
+.color p{
+	margin-left: 5%;
+}
+
+#color-6 p{
+	color: #FFFFFF
+}
+
+.text{
+	width: 45%;
+	float: left;
+	margin-right: 5%;
+	}
+
+.clear{
+	clear: both;
+}
+
+/* FOOTER */
+footer{
+	clear: both;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #777777;
+}
+.contact{
+	text-align: center;
+
+	margin: auto;
+	color: #e6be46;
+	padding-bottom: 15px;
+}
+
+.contact h2{
+	color: #e6be46;
+	margin-bottom: -1px;
+}
+/*END FOOTER */
+
+#color-1 {
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+}
+#color-2 { 
+	background-color: #e6c20a;
+}
+#color-3 {
+	background-color: #e6be46;
+	}
+#color-4  { 
+	background-color: #b2b2b1;
+}
+#color-5 { 
+	background-color: #777777;
+}
+#color-6 {
+	background-color: #000000;
+	color: white;
+}
+
+.images{
+	float: left;
+
+
+}
+
+.portfolio1{
+	border: 5px solid #e6c20a;
+	padding: 10px;
+	margin: 10px 10px 10px 0px;
+}
+
+
+.button {
+    border-radius: .30em;
+    border-width: 0 0 .25em;
+    display: inline-block;
+    font-weight: bold;
+    padding: .25em .5em;
+    text-decoration: none;
+    background-color: #e6c20a;
+    color: #777777;
+}
+
+.button:hover {
+    background-color: #777777;
+    color: #e6c20a;
+}
+
+.socialmedia {
+	padding-top: .5em;
+}
+

@@ -6,23 +6,252 @@ html, body {
   margin: 0;
   padding: 0;
 }
+.intro img {
+	width: 70%;
+	margin: auto;
+	position: relative;
 
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
-  background-size: cover;
-
-  color: rgba(232,234,246 ,1);
+	border: solid 5px #e6c20a;
+	padding: 20px 20px 20px 20px;
 }
 
 .intro {
-  width: 90vw;
-
-  padding: 1rem;
-  margin-top: 1rem;
-
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+	text-align: center;
+	margin-bottom: 46px;
+	
 }
+
+.intro p{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+	color: #ffffff;
+
+}
+
+.uitleg {
+	margin: 0 10 0 20; 
+}
+
+.navigatie{
+	height: 110px;
+	border-bottom: 4px solid #e6c20a;
+	margin-top: 30px;
+	margin-bottom: 46px;
+}
+
+.navlist {
+	float: right;
+}
+
+.navlist ul{
+	list-style: none;
+	margin-top: 40px;
+}
+
+.navlist li{
+	display: inline;
+	font-family: 'Fira Sans Condensed', sans-serif;
+    color: #000000;
+    font-size: 32px;
+	float: left;
+	margin-right: 7rem;
+
+}
+
+li:active{
+	color: #e6c20a
+}
+
+.logo{
+	position: absolute;
+	float: left;
+	width: 30%;
+	margin-left: 5%;
+}
+
+.motivering{
+	text-align: center;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-size: 32px;
+	color: #e6be46;
+	padding: 65 80 65 80;
+}
+
+.nr {
+	border-radius: 50%;
+	background: #e6be46;
+	width: 50px;
+	height: 50px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	color: #ffffff;
+	font-size: 32px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.nummer{
+	margin: auto;
+	width: 6%; 
+}
+
+#nav2 {
+	margin-bottom: 0px;
+}
+
+
+.onderzoek, .ontwerpen, .afwerken, .afleveren{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.button {
+    border-radius: .30em;
+    border-width: 0 0 .25em;
+    display: inline-block;
+    font-weight: bold;
+    padding: .25em .5em;
+    text-decoration: none;
+    background-color: #e6c20a;
+    color: #777777;
+}
+
+
+.button:hover {
+    background-color: #777777;
+    color: #e6c20a;
+}
+
+.portfoliofoto a {
+	margin-bottom: 100px;
+	display: inline-block;
+	margin-left: 37%;
+}
+
+.portfoliofoto img{
+	border: 5px solid #e6c20a;
+	padding: 10px;
+	margin: 10px;
+	margin-bottom: 20px;
+}
+
+
+#overons{
+	position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 32px;
+	width: 1200px;
+	background-color: #b2b2b1;
+	opacity: 0.8;
+}
+
+#hetteam {
+	font-size: 32px;
+}
+
+#bureaufoto {
+	width: 100%;
+}
+
+.medewerkers ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.medewerkers {
+	text-align: center;
+}
+
+.medewerkers img{
+	height: 320px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+.persoon1{
+	margin-bottom: 30px;
+}
+
+.contactformulier li{
+	list-style: none;
+}
+
+#infolijst{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.contactinfo img{
+	padding: 0 10 40 40;
+}
+
+#contactgeg {
+	padding-top: 0;
+	margin-top: 19px;
+}
+
+.contactformulier ul{
+	padding-left: 0;
+}
+
+.invulstrook {
+	border: solid 2px #e6be46;
+	width: 100%;
+	padding-bottom: 40px;
+	margin-bottom: 10px;
+	font-family: 'Noto Serif', serif;
+	font-size: 20;
+}
+
+.boodschap {
+	padding-bottom: 120px;
+}
+
+.socialmedia img{
+	padding-left: 10px;
+}
+
+/* detailpg.html */
+
+#detail{ 
+	text-align: center;
+	font-family: 'Noto Serif', sans-serif;
+	font-size: 26px;
+	color: #000000;
+	padding: 65 80 65 80;
+}
+
+#detailfoto {
+	margin: 10 0 54 125;
+	border: solid 5px #e6be46;
+	padding: 10 10 10 10;
+}
+
+
+/* FOOTER */
+footer{
+	clear: both;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #777777;
+}
+.contact{
+	text-align: center;
+
+	margin: auto;
+	color: #e6be46;
+	padding-bottom: 15px;
+}
+
+.contact h2{
+	color: #e6be46;
+	margin-bottom: -1px;
+}
+/*END FOOTER */
+
